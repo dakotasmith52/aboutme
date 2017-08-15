@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<script type="text/javascript" src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Nice to meet you</title>
+    <div class="h1" id="home">
+        <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+            <source src="Particle_Tunnel_4K_Motion_Background_Loop.mp4" type="video/webm">
+            <source src="Particle_Tunnel_4K_Motion_Background_Loop.mp4" type="video/mp4">
+        </video>
+        <h1>Dakota Smith</h1>
+        <h3>Connect with me on <a href=https://www.linkedin.com/in/dakota-smith-837304133/ target="_.blank">LinkedIn</a></h3>
+    </div>
+    <div class="ul" id="navbar">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="About">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li style="float:right"><a href="#contact">Contact</a></li>
+    </div>
+
+</head>
+<body class="animate-in">
+<div class="h2" id="Hello">
+    <h2>A little about me!</h2>
+    <p>Well well well bla bla blah....</p>
+</div>
+</body>
+</html>
