@@ -1,4 +1,4 @@
-
+0
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
     animation: fadeIn .5s ease-in;
@@ -27,7 +27,7 @@ html * {
     color: white;
     text-align: center;
     font-size: 35px;
-    height: 92vh;
+    height: 90vh;
     padding: 50px;
     border-bottom: solid black 2px;
     background: url(techy.jpg);
