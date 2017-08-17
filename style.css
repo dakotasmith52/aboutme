@@ -1,4 +1,4 @@
-0
+
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
     animation: fadeIn .5s ease-in;
@@ -19,7 +19,7 @@
 
 
 html * {
-    font-family: 'Raleway', sans-serif;
+    font-family: Verdana, 'Raleway', sans-serif;
     background-color: transparent;
 }
 
@@ -27,21 +27,14 @@ html * {
     color: white;
     text-align: center;
     font-size: 35px;
-    height: 90vh;
+    height: 92vh;
     padding: 50px;
-    border-bottom: solid black 2px;
+    border-bottom: solid black 1px;
     background: url(techy.jpg);
     background-size: 100% 100%;
 }
 
-img.rrp {
-    height: 55vh;
-    width: auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin-right: 20px;
-}
+
 
 /* professional photo */
 img.prof {
@@ -50,6 +43,7 @@ img.prof {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    border: solid skyblue 2px;
 }
 
 /* linkedin logo */
@@ -60,6 +54,88 @@ img.linkedin_logo {
 }
 
 /* thank you section */
+
+#experience {
+    padding: 50px;
+    height: 90vh;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+#experience h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#experience img#dli {
+    height: 20vh;
+    width: auto;
+    float: left;
+    margin-top: 2%;
+}
+
+#experience img#usmc {
+    height: 20vh;
+    width: auto;
+    float: left;
+    margin-top: 3%;
+}
+
+#experience img#mssa {
+    height:8vh;
+    width: auto;
+    float: left;
+    margin-left: -13%;
+    margin-top:4%;
+    padding:0;
+}
+
+#experience img#erau {
+    height: 5vh;
+    width: auto;
+    float: left;
+    margin-top: 2%;
+}
+
+#experience .dli-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 13%;
+    font-variant: small-caps;
+}
+
+#experience .dli-list a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#About {
+
+    padding: 50px;
+    height: 90vh;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+#About img.rrp {
+    height: 40vh;
+    width: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-content: inherit;
+}
+
+#About h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
 .ty {
     margin-top: 10%;
     font-size: 40px;
@@ -71,14 +147,15 @@ img.linkedin_logo {
     height: 90vh;
     color: white;
     padding: 50px;
-    //background: red; /* For browsers that do not support gradients */
-    //background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-    //background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-    //background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
-    //background: linear-gradient(to right, red , yellow); /* Standard syntax */
+//background: red; /* For browsers that do not support gradients */
+//background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+//background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+//background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+//background: linear-gradient(to right, red , yellow); /* Standard syntax */
     border-bottom: solid black 2px;
     background: url("dark computer.jpg");
     background-size: 100% 100%;
+    border-top: solid black 1px;
 
 }
 
@@ -89,27 +166,9 @@ div.footer {
     bottom: 0;
     background-color: transparent;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
-#experience {
-    text-align: center;
-    font-size: 35px;
-    padding: 50px;
-    height: 90vh;
-    color: black;
-    border-bottom: solid black 2px;
-}
-
-#About {
-    text-align: center;
-    font-size: 35px;
-    padding: 50px;
-    height: 90vh;
-    color: black;
-
-    border-bottom: solid black 2px;
-}
 
 .ul {
     list-style-type: none;
@@ -129,7 +188,8 @@ div.footer {
     overflow: hidden;
     background-color: transparent;
     width: 100%;
-    color: black;
+    color: white;
+
 }
 
 .titles ul li{
@@ -137,7 +197,7 @@ div.footer {
     font-size: 5vh;
     text-align: center;
     list-style-type: disc;
-
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .ul li {
