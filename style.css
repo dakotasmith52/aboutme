@@ -53,7 +53,46 @@ img.linkedin_logo {
     margin-top: -15px;
 }
 
-/* thank you section */
+
+#About {
+    background: burlywood;
+    padding: 50px;
+    height: 90vh;
+    color: black;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+#About .aboutme{
+    text-align: left;
+    margin-left: 20%;
+}
+
+#About .aboutme h3 {
+    font-size: 35px;
+}
+
+#About .aboutme p{
+    font-size: 28px;
+    margin-bottom: 50px
+}
+
+#About img.rrp {
+    height: 40vh;
+    width: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-content: inherit;
+    border: solid black 2px;
+    float: left;
+}
+
+#About h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
 
 #experience {
     background: skyblue;
@@ -126,30 +165,6 @@ img.linkedin_logo {
 
 }
 
-#About {
-    background: burlywood;
-    padding: 50px;
-    height: 90vh;
-    color: black;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
-}
-
-#About img.rrp {
-    height: 40vh;
-    width: auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    align-content: inherit;
-    border: solid black 2px;
-}
-
-#About h2 {
-    text-align: center;
-    font-size: 35px;
-}
-
 .ty {
     margin-top: 10%;
     font-size: 40px;
@@ -192,6 +207,9 @@ div.footer {
     width: 100%;
     position: fixed;
     top: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .titles {
