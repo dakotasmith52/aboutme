@@ -26,7 +26,7 @@ html * {
 #home {
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 3vh;
     height: 92vh;
     padding: 50px;
     border-bottom: solid black 1px;
@@ -50,13 +50,13 @@ img.prof {
 img.linkedin_logo {
     height: 8vh;
     width: auto;
-    margin-top: -15px;
+    margin-top: -2vh;
 }
 
 
 #About {
     background: burlywood;
-    padding: 50px;
+    padding: 1vh;
     height: 90vh;
     color: black;
     border-bottom: solid black 1px;
@@ -73,19 +73,8 @@ img.linkedin_logo {
 }
 
 #About .aboutme p{
-    font-size: 28px;
-    margin-bottom: 50px
-}
-
-#About img.rrp {
-    height: 40vh;
-    width: auto;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    align-content: inherit;
-    border: solid black 2px;
-    float: left;
+    font-size: 3vh;
+    margin-bottom: 4vh;
 }
 
 #About h2 {
@@ -105,7 +94,7 @@ img.linkedin_logo {
 
 #experience h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 3vh;
 }
 
 #experience img#dli {
@@ -116,29 +105,29 @@ img.linkedin_logo {
 }
 
 #experience .dli-list #dli {
-    margin-left: 12%;
+    margin-left: 3vh;
 }
 
 #experience .dli-list #sigint {
-    margin-left: 12%;
+    margin-left: 3vh;
 }
 
 #experience .dli-list #student {
-    margin-left: 12%;
+    margin-left: 3vh;
 }
 
 #experience img#usmc {
     height: 20vh;
     width: auto;
     float: left;
-    margin-top: 3%;
+    margin-top: 1vh;
 }
 
 #experience img#mssa {
     height:8vh;
     width: auto;
     float: left;
-    margin-left: -13%;
+    margin-left: -25vh;
     margin-top:7%;
     padding:0;
 }
@@ -166,16 +155,16 @@ img.linkedin_logo {
 }
 
 .ty {
-    margin-top: 10%;
-    font-size: 40px;
+    margin-top: 1vh;
+    font-size: 3vh;
 }
 
 #Thanks {
     text-align: center;
-    font-size: 35px;
+    font-size: 4vh;
     height: 90vh;
     color: white;
-    padding: 50px;
+    padding: 3vh;
 //background: red; /* For browsers that do not support gradients */
 //background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
 //background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
@@ -195,7 +184,7 @@ div.footer {
     bottom: 0;
     background-color: transparent;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 23vh;
 }
 
 
