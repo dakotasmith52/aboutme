@@ -30,7 +30,7 @@ html * {
     height: 92vh;
     padding: 50px;
     border-bottom: solid black 1px;
-    background: url(techy.jpg);
+    background: url(dark.jpg);
     background-size: 100% 100%;
 }
 
@@ -50,12 +50,13 @@ img.prof {
 img.linkedin_logo {
     height: 8vh;
     width: auto;
-
+    margin-top: -15px;
 }
 
 /* thank you section */
 
 #experience {
+    background: skyblue;
     padding: 50px;
     height: 90vh;
     color: black;
@@ -72,7 +73,19 @@ img.linkedin_logo {
     height: 20vh;
     width: auto;
     float: left;
-    margin-top: 2%;
+    margin-top: 4%;
+}
+
+#experience .dli-list #dli {
+    margin-left: 12%;
+}
+
+#experience .dli-list #sigint {
+    margin-left: 12%;
+}
+
+#experience .dli-list #student {
+    margin-left: 12%;
 }
 
 #experience img#usmc {
@@ -87,7 +100,7 @@ img.linkedin_logo {
     width: auto;
     float: left;
     margin-left: -13%;
-    margin-top:4%;
+    margin-top:7%;
     padding:0;
 }
 
@@ -95,7 +108,7 @@ img.linkedin_logo {
     height: 5vh;
     width: auto;
     float: left;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 #experience .dli-list li {
@@ -114,7 +127,7 @@ img.linkedin_logo {
 }
 
 #About {
-
+    background: burlywood;
     padding: 50px;
     height: 90vh;
     color: black;
@@ -129,6 +142,7 @@ img.linkedin_logo {
     -moz-border-radius: 10px;
     border-radius: 10px;
     align-content: inherit;
+    border: solid black 2px;
 }
 
 #About h2 {
