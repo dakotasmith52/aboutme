@@ -56,8 +56,8 @@ img.linkedin_logo {
 
 #About {
     background: burlywood;
-    padding: 1vh;
-    height: 110vh;
+    padding: 3vh;
+    height: 100vh;
     color: black;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
@@ -84,7 +84,8 @@ img.linkedin_logo {
 
 #experience {
     background: skyblue;
-    height: 90vh;
+    height: 100vh;
+    padding: 3vh;
     color: black;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
