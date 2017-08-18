@@ -62,8 +62,16 @@ img.linkedin_logo {
     border-top: solid skyblue 1px;
 }
 
+#About li{
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
 #About .aboutme{
     text-align: left;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 #About .aboutme h3 {
@@ -71,8 +79,9 @@ img.linkedin_logo {
 }
 
 #About .aboutme p{
-    font-size: 3vh;
+    font-size: 2vh;
     margin-bottom: 4vh;
+
 }
 
 #About h2 {
@@ -112,14 +121,14 @@ img.linkedin_logo {
 #experience .xp img#erau {
     height: 5vh;
     width: auto;
-    margin-left: 12vw;
+    margin-left: 16vw;
     float: left;
     margin-top: 5.5vh;
     overflow: hidden;
 }
 
 #experience .xp img#usmc{
-    margin-left: 25vw;
+    margin-left: 13vw;
     height: 20vh;
     width: auto;
     float: left;
@@ -127,7 +136,7 @@ img.linkedin_logo {
 }
 
 #experience .xp img#dli{
-    margin-left: 21vw;
+    margin-left: 16vw;
     height: 20vh;
     width: auto;
     float: left;
@@ -136,7 +145,11 @@ img.linkedin_logo {
 
 #experience .tbl {
     text-align: center;
+    border-collapse: collapse;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
+
 
 #experience .tbl a{
     text-decoration: none;
@@ -145,16 +158,16 @@ img.linkedin_logo {
 
 #experience .tbl th{
     font-size: 2vh;
-    text-align: center;
 }
 
 #experience .tbl td {
-    margin: 5vh;
-    text-align: center;
-    vertical-align: top;
-    height: 50px;
 
+    vertical-align: top;
+    height: 75px;
+    width: 100px;
 }
+
+
 
 #Thanks {
     text-align: center;
