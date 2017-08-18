@@ -20,7 +20,9 @@
 
 html * {
     font-family: Verdana, 'Raleway', sans-serif;
-    background-color: transparent;
+    background: url("dark computer.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 #home {
@@ -29,9 +31,7 @@ html * {
     font-size: 3vh;
     height: 92vh;
     padding: 50px;
-    border-bottom: solid black 1px;
-    background: url(dark.jpg);
-    background-size: 100% 100%;
+    border-bottom: solid skyblue 1px;
 }
 
 
@@ -55,12 +55,11 @@ img.linkedin_logo {
 
 
 #About {
-    background: burlywood;
     padding: 3vh;
     height: 100vh;
-    color: black;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    color: white;
+    border-bottom: solid skyblue 1px;
+    border-top: solid skyblue 1px;
 }
 
 #About .aboutme{
@@ -83,12 +82,11 @@ img.linkedin_logo {
 
 
 #experience {
-    background: skyblue;
     height: 100vh;
     padding: 3vh;
-    color: black;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    color: white;
+    border-bottom: solid skyblue 1px;
+    border-top: solid skyblue 1px;
 }
 
 #experience h2 {
@@ -96,66 +94,66 @@ img.linkedin_logo {
     font-size: 3vh;
 }
 
-#experience img#dli {
-    height: 20vh;
+
+
+#experience .xp{
+    display: inline-block;
+}
+
+#experience .xp img#mssa {
+    height:5vh;
     width: auto;
     float: left;
-    margin-top: 4%;
+    margin-left: -14vw;
+    margin-top: 10vh;
+    overflow: hidden;
 }
 
-#experience .dli-list #dli {
-    margin-left: 3vh;
-}
-
-#experience .dli-list #sigint {
-    margin-left: 3vh;
-}
-
-#experience .dli-list #student {
-    margin-left: 3vh;
-}
-
-#experience img#usmc {
-    height: 20vh;
-    width: auto;
-    float: left;
-    margin-top: 1vh;
-}
-
-#experience img#mssa {
-    height:8vh;
-    width: auto;
-    float: left;
-    margin-left: -25vh;
-    margin-top:7%;
-    padding:0;
-}
-
-#experience img#erau {
+#experience .xp img#erau {
     height: 5vh;
     width: auto;
+    margin-left: 12vw;
     float: left;
-    margin-top: 5%;
+    margin-top: 5.5vh;
+    overflow: hidden;
 }
 
-#experience .dli-list li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 13%;
-    font-variant: small-caps;
-}
-
-#experience .dli-list a {
-    color: darkblue;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-
-}
-
-.ty {
+#experience .xp img#usmc{
+    margin-left: 25vw;
+    height: 20vh;
+    width: auto;
+    float: left;
     margin-top: 1vh;
-    font-size: 3vh;
+}
+
+#experience .xp img#dli{
+    margin-left: 21vw;
+    height: 20vh;
+    width: auto;
+    float: left;
+    margin-top: 1vh;
+}
+
+#experience .tbl {
+    text-align: center;
+}
+
+#experience .tbl a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+#experience .tbl th{
+    font-size: 2vh;
+    text-align: center;
+}
+
+#experience .tbl td {
+    margin: 5vh;
+    text-align: center;
+    vertical-align: top;
+    height: 50px;
+
 }
 
 #Thanks {
@@ -169,13 +167,15 @@ img.linkedin_logo {
 //background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
 //background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
 //background: linear-gradient(to right, red , yellow); /* Standard syntax */
-    border-bottom: solid black 2px;
-    background: url("dark computer.jpg");
-    background-size: 100% 100%;
-    border-top: solid black 1px;
+    border-bottom: solid skyblue 2px;
+    border-top: solid skyblue 1px;
 
 }
 
+.ty h2 {
+    margin-top: 15vh;
+    font-size: 5vh;
+}
 div.footer {
 
     left: 0;
@@ -183,7 +183,7 @@ div.footer {
     bottom: 0;
     background-color: transparent;
     text-align: center;
-    margin-top: 23vh;
+    margin-top: 20vh;
 }
 
 
