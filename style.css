@@ -17,12 +17,15 @@
     to { opacity: 1; }
 }
 
+html{
+    background: url("dark computer.jpg") fixed;
+
+}
 
 html * {
     font-family: Verdana, 'Raleway', sans-serif;
-    background: url("dark computer.jpg");
     background-size: 100% 100%;
-    background-attachment: fixed;
+
 }
 
 #home {
