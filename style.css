@@ -57,7 +57,7 @@ img.linkedin_logo {
 #About {
     background: burlywood;
     padding: 1vh;
-    height: 90vh;
+    height: 100vh;
     color: black;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
@@ -65,7 +65,7 @@ img.linkedin_logo {
 
 #About .aboutme{
     text-align: left;
-    margin-left: 20%;
+    margin-left: 1vh;
 }
 
 #About .aboutme h3 {
